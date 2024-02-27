@@ -1,0 +1,55 @@
+.Home {
+    width: 100vw;
+    height: 100vh;
+    background: #10192B;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+  }
+
+.home-content{
+    max-width: 597px;
+    max-height: 497px;
+}
+
+.neon {
+    font-size: 5.5rem;
+    text-align: center;
+    font-weight: bold;
+    color: #00abf0;
+    text-shadow:
+        0 0 1rem #00abf0,
+        0 0 2rem #00abf0,
+        0 0 4rem #00abf0
+}
+
+.neon2 {
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: bold;
+    color: #F88F1D;
+    text-shadow:
+        0 0 1rem #F88F1D,
+        0 0 2rem #F88F1D,
+        0 0 4rem #F88F1D
+}
+
+@media (max-width: 1200px){
+    .neon {
+        font-size: 5rem;
+    }
+    
+    .neon2 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 991px){
+    .neon {
+        font-size: 4.5rem;
+    }
+    
+    .neon2 {
+        font-size: 1.5rem;
+    }
+}
