@@ -5,7 +5,7 @@ import { faUser } from '@fortawesome/free-solid-svg-icons';
 
 function Login() {
   return (
-    <div style={{ height: '90vh', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+    <div style={{ height: '90vh', display: 'flex', justifyContent: 'center', alignItems: 'center', backgroundColor: '#012e40'}}>
       <form style={{ backgroundColor: 'orange', padding: '20px', borderRadius: '20px', width: '450px', height: '450px', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center' }}>
         <h1 style={{ color: '#fff', textAlign: 'center', fontSize: '2em', marginBottom: '20px' }}><FontAwesomeIcon icon={faUser} style={{ color: '#fff', fontSize: '1.5em' }} /></h1>
         <br />
